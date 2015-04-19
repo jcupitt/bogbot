@@ -128,7 +128,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
 
 def wait_for_trigger():
-    while not GPIO.input(sensor)
+    while not GPIO.input(sensor):
         time.sleep(0.1)
 
 while True:
