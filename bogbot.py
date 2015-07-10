@@ -42,7 +42,9 @@ smell_adjective = [
     "fetid",
     "eye watering",
     "toe curling",
-    "disgusting"
+    "disgusting",
+    "fragrant", 
+    "aromatic",
 ]
 
 foods = [
