@@ -8,10 +8,9 @@ import RPi.GPIO as GPIO
 sensor = 4
 
 people = [
-    "Nina",
-    "Theo",
-    "Petra",
-    "John"
+    "Sarah",
+    "Sean",
+    "Alish"
 ]
 
 size_adjective = [
@@ -56,7 +55,7 @@ foods = [
 ]
 
 begin_phrases = [
-    "welcome, I am bogbot46",
+    "welcome, I am bogbot",
     "hello {person}, I do enjoy your visits",
     "hello {person}",
     "hello {person}, not like last time, please",
@@ -69,8 +68,8 @@ begin_phrases = [
 mid_phrases = [
     "you are my B F F, {person}",
     "you are my only friend, {person}",
-    "did you know this toilet has a youtube channel? visit youtube.com/bogbot46",
-    "follow me on twitter, at official bogbot46",
+    "did you know this toilet has a youtube channel? visit youtube.com/bogbot",
+    "follow me on twitter, at official bogbot",
     "O M G that's a {size} one",
     "oh dear {person}, that smells {smell}",
     "I didn't think you could get any fatter, {person}",
@@ -81,13 +80,12 @@ mid_phrases = [
     "do you come here often, {person}?",
     "would you like a spoon, {person}?",
     "come on {person}, push",
-    "oh no another chinese earthquake brbrbrbrbrbr",
-    "snaaaaaaaaake!",
     "some people wear cologne, I wear koelong",
     "get off you fat lump",
-    "mariola is the only person who really loves me",
-    "oooeee I do enjoy a nice bit of harpic",
     "I can see you, {person} ... I can see you pooping",
+    "that's a nasty rash, {person}",
+    "signs of chafing, I see, {person}",
+    "simple and effective treatments exist for your condition, {person}",
 ]
 
 end_phrases = [
@@ -98,7 +96,6 @@ end_phrases = [
     "you can use soap, you know",
     "only four blockages so far today",
     "{food} last night, I see",
-    "please don't flush your goldfish",
     "I think you should change your underpants, {person}",
     "is that {food}, {person}?",
     "that smells {smell}, {person}",
@@ -148,4 +145,4 @@ while True:
 
     say_phrase(random.choice(end_phrases), person)
 
-    time.sleep(10)
+    time.sleep(60)
