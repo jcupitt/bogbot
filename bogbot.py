@@ -10,7 +10,8 @@ sensor = 4
 people = [
     "Sarah",
     "Sean",
-    "Alish"
+    "Ailish",
+    "Ted",
 ]
 
 size_adjective = [
@@ -52,17 +53,23 @@ foods = [
     "carrots",
     "soya mince",
     "beetroot",
+    "fish",
+    "jammy dodgers",
 ]
 
 begin_phrases = [
     "welcome, I am bogbot",
-    "hello {person}, I do enjoy your visits",
     "hello {person}",
+    "hello {person}, I do enjoy your visits",
     "hello {person}, not like last time, please",
+    "hello {person}, please use the brush this time",
     "ah! another customer!",
     "oh no, it's {person}",
     "I still remember the {smell} smell from your last visit, {person}",
     "fasten your seatbelts, it's {person}",
+    "eating {food} again, {person}?",
+    "please use the other toilet, {person}",
+    "{person}, you are banned from this toilet after last time",
 ]
 
 mid_phrases = [
@@ -84,8 +91,11 @@ mid_phrases = [
     "get off you fat lump",
     "I can see you, {person} ... I can see you pooping",
     "that's a nasty rash, {person}",
+    "remember what the doctor told you, {person}",
+    "you've not been using your ointment, have you",
     "signs of chafing, I see, {person}",
     "simple and effective treatments exist for your condition, {person}",
+    "this is the 69th time today, {person}",
 ]
 
 end_phrases = [
@@ -101,6 +111,7 @@ end_phrases = [
     "that smells {smell}, {person}",
     "all over the floor, typical",
     "I can feel my paint peeling",
+    "perhaps you should shower now, {person}",
     "I like {food} too",
     "I'm not able to leave this room, you know",
     "please, take me with you, {person}",
